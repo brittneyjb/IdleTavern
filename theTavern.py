@@ -132,5 +132,5 @@ class theTavern:
         for h in self.heroes:
             fin+= str(h.getName())+"\t"
         fin += "\nThe Different Areas: \nThe Inn: {} is resting".format(self.hFloors[0])
-        fin += "\nThe Training Room: {} is training\nThe Liabrary: {} is studying".format(self.hFloors[1],self.hFloors[2])
+        fin += "\nThe Training Room: {} is training\nThe Library: {} is studying".format(self.hFloors[1],self.hFloors[2])
         return fin
